@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Amanda Nolwazi Tsebesha Professional Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script defer src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    
+</head>
+
+<body>
+    <header>
+        <h1>Amanda Nolwazi Tsebesha</h1>
+        <p>Software Development Graduate | Data Science Intern | Generative AI Trainer</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Who is Miss AN Tsebesha</h2>
+            <p>Write my story</p>
+        </section>
+
+        <section id="education">
+            <h2>Educational Background</h2>
+            <p>I started at a local school "Enyanisweni Primary School" in our village.</p>
+            <p>Even though it did not have much facilities but I had an opportunity to create a solid foundation that will groom me to become the person I am today.</p>
+            <p>I then went to Phathwa High School where i spent my junior high school days. That is where I decided that for senior high, I want to do Math,Science and Accounting.</p>
+            <p>Fortunately Mlonde High School was more that ready to welcome me as their math&science student. Which is where I excelled 
+                in my subjects and was assigned to tutor students for examinations</p>
+            <p>For further education, I was offered a great opportunity at WeThinkCode_ to study 
+                for NQF 5 in Information Systems (Software Development) from 2021-2022 where I gained a lot of professional skills and 
+            knowledge to persue my passion further.</p>
+            <p>Due to the love of Data Science, I then enrolled myself on an online private academy
+                 Alison to study Diploma in Python for Data Science.</p>
+        
+        </section>
+
+        <section id="mission">
+            <h2>Mission</h2>
+            <p>What are my ambitions, my passion. My goals</p>
+        </section>
+
+        <section id="achievements">
+            <h2>My Achievements</h2>
+            <p>What have I achived thus far.</p>
+            
+        </section>
+
+        <section id="skills">
+            <h2> Skills</h2>
+            <ul>
+                <li>Project Management <span>*****</span></li>
+                <li>Web Development <span>*****</span></li>
+                <li>HTML |CSS |JavaScript <span>*****</span></li>
+                <li>Data Analysis <span>*****</span></li>
+                <li>Pandas <span>*****</span></li>
+                <li>Python |Java |SQL |C#<span>*****</span></li>
+                <li>SWAGGER |REST APIs |Blockchain API |Web API <span>*****</span></li>
+                <li>jQuery |Thymeleaf |.NET Framework |Springboot <span>*****</span></li>
+                <li>FullStack Development <span>*****</span></li>  
+            </ul>
+        </section>
+
+        <section id="certificates">
+            <h2>Certificates</h2>
+            <div class="certificates_gallery">
+                <img src="{{ url_for('static', filename='certificates/aws.jpg') }}" alt=" AWS Certificate">
+                <!----Add more---->
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <img src="{{ url_for('static', filename='project1.jpg') }}" alt="Project Screenshot">
+                <div>
+                    <h3>Project Title</h3>
+                    <p>Description of the project.........</p>
+                    <a href="https://github.com/username/project" target="blank">View On GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Enter text here" required></textarea>
+                <button type="submit">Submit Message</button>
+            </form>
+
+            <div id="responseMessage"></div>
+
+        </section>
+
+        <footer> 
+            <p>Contact : matsebesha@gmail.com | Phone: 0604924222</p>
+        </footer>
+        
+    </main>
+</body>
+</html>

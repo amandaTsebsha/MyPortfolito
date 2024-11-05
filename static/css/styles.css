@@ -1,0 +1,129 @@
+/* Reset default browser styling */
+*,
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body and main layout */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #e982a1;
+    color: #faf0f0;
+}
+
+header {
+    background-color: #e982a1;
+    color: #faf0f0;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Section Styling */
+
+section {
+    padding: 2rem;
+    margin-bottom: 1rem 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1d3557;
+    border-bottom: 2px solid #457b9d;
+    padding-bottom: 0.5rem;
+
+}
+
+/* Skills Section */
+
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+#skills span {
+    color: #457b9d;
+    font-weight: bold;
+}
+
+
+.certificates_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.certificates_gallery- img {
+
+    width: 150px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.certificates_gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Project Portfolio */
+
+#projects .project img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+#projects h3 {
+    font-size: rem1.5;
+    color: #1d3557;
+    margin-bottom: 0.5rem;
+}
+
+#projects p {
+    font-size: 1rem;
+    color: #555;
+
+}
+
+#projects a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #457b9d;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s;
+
+}
+
+#projects a:hover {
+    background-color: #1d3557;
+}
+
+/* Contact Form */
+
