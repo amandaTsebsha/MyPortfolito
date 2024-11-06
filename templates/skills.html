@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Amanda Nolwazi Tsebesha</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script defer src="{{ url_for('static', filename='js/scripts.js')}}"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Skills</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('projects')}}">Projects</a></li>
+                <li><a href="{{ url_for('skills') }}">Skills</a></li>
+                <li><a href="{{ url_for('certificates')}}">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="skills-list">
+        <h2>My Skills</h2>
+            <ul>
+                <li>Project Management <span>★★★★★</span></li>
+                <li>Time Management <span>★★★★★</span></li>
+                <li>Communication <span>★★★★★</span></li>
+                <li>Computer Literacy <span>★★★★★</span></li>
+                <li>Programming and Development <span>★★★★★</span></li>
+                <!-- Add more skills here -->
+            </ul>
+    </section>
+    
+    <footer>
+        <p>Contact: matsebesha@gmail.com | Phone: 0604924222</p>
+    </footer>
+              
+</body>
+</html>

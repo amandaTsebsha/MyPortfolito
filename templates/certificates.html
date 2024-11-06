@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates | Amanda Nolwazi Tsebesha</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script defer src="{{ url_for('static', filename='js/scripts.js')}}"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Certificates</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('projects')}}">Projects</a></li>
+                    <li><a href="{{ url_for('skills') }}">Skills</a></li>
+                    <li><a href="{{ url_for('certificates')}}">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section id="certificate-list">
+        <h2>My Certificates</h2>
+            <div class="certificates-gallery">
+                <img src="{{ url_for('static', filename='certificates/aws.jpg') }}" alt="AWS Certificate">
+                <img src="{{ url_for('static', filename='certificates/git.jpg') }}" alt="Git Training Certificate">
+                <img src="{{ url_for('static',
+                filename='certificates/responsive.jpg') }}" alt="Responsive Web Design Certificate">
+            <!-- Add more certificates as needed -->
+            </div>
+        </section>
+            
+</body>
